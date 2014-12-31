@@ -1,0 +1,415 @@
+/* 
+ * -------------------------------
+ * RESPONSIVE WEBSITE
+ * -------------------------------
+ * by Vincent Polding
+ * contact: http://www.poldings.com
+ * demo site: http://responsive-website.poldings.com
+ * 30th Dec 2014
+*/
+
+/*
+* -------------------------------  
+* GLOBAL STYLES
+* ------------------------------- 
+*/
+/* global reset padding and margins */
+*,html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,sub-menu,nav,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/*
+ * -------------------------------
+ * MAIN STRUCTURE
+ * -------------------------------
+ */
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: 100%/1.4 'Times New Roman', Times, serif;
+	color: #444444;
+	background-color: #cccccc;
+}
+
+/* 
+ * -------------------------------
+ * WRAPPER
+ * -------------------------------
+*/
+#envelope {
+	clear: both;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0px auto 20px auto;
+	position: relative;
+	padding: 0;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	box-shadow: 0 0 8px #666;
+	background-color: #fff;
+}
+
+/*
+ * -------------------------------
+ * HEADER
+ * -------------------------------
+ */
+#header {
+	padding: 0;
+	width: 100%;
+}
+
+/*
+ * -------------------------------
+ * PAGE
+ * -------------------------------
+ */
+#content {
+	padding: 20px 40px 20px 40px;
+}
+
+/*
+ * -------------------------------
+ * FOOTER
+ * -------------------------------
+ */
+#footer {
+	padding: 20px 40px 20px 40px;
+}
+
+/*
+ * -------------------------------
+ * LINKS
+ * -------------------------------
+ */
+a,a:link,a:visited,a:active {
+	color: #006699;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #cc0066;
+}
+
+/*
+ * -------------------------------
+ * TITLE TAGS
+ * -------------------------------
+ */
+h1 {
+	font-size: 250%;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 0 10px 0;
+}
+
+h2 {
+	font-size: 200%;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	font-weight: normal;
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 150%;
+	font-weight: normal;
+}
+
+/*
+ * -------------------------------
+ * COMMON ELEMENTS
+ * -------------------------------
+ */
+p {
+	font-size: 130%;
+	margin: 0 0 15px 0;
+	line-height: 150%;
+}
+
+.list ul {
+	font-size: 130%;
+}
+
+.list li {
+	font-size: 130%;
+	margin: 0 0 0 20px;
+	line-height: 100%;
+	padding: 0 0 10px 0;
+}
+
+/*
+ * -------------------------------
+ * CUSTOM CLASSES
+ * -------------------------------
+ */
+.clear {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	height: 0;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.code {
+	background-color: #444;
+	color: #fff;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 130%;
+	line-height: 150%;
+	padding: 20px;
+}
+
+.code-caption {
+	font-size: 100%;
+	color: #999;
+	margin: 5px 0 20px 0;
+}
+
+.quote {
+	background-color: #d1d1d1;
+	font-family: Georgia, serif;
+	font-size: 150%;
+	line-height: 150%;
+	padding: 20px;
+	font-style: italic;
+}
+
+.quote-person {
+	color: #666;
+	font-style: normal;
+	font-size: 80%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+/*
+ * -------------------------------
+ * MENU
+ * -------------------------------
+ */
+.menu ul {
+	
+}
+
+.menu li {
+	width: 100%;
+	list-style: none;
+	font-size: 130%;
+}
+
+.menu li a {
+	display: block;
+	text-decoration: none;
+	background: #d9d9d9;
+	color: #444;
+	padding: 0.5em;
+	margin: 0 0 0.3em 0;
+}
+
+.menu li a:hover {
+	background: #444;
+	color: #fff;
+}
+
+/*
+ * -------------------------------
+ * COLUMNS
+ * -------------------------------
+ */
+.col5 {
+	float: left;
+	width: 5%;
+}
+
+.col10 {
+	float: left;
+	width: 10%;
+}
+
+.col15 {
+	float: left;
+	width: 15%;
+}
+
+.col20 {
+	float: left;
+	width: 20%;
+}
+
+.col25 {
+	float: left;
+	width: 25%;
+}
+
+.col30 {
+	float: left;
+	width: 30%;
+}
+
+.col35 {
+	float: left;
+	width: 35%;
+}
+
+.col40 {
+	float: left;
+	width: 40%;
+}
+
+.col45 {
+	float: left;
+	width: 45%;
+}
+
+.col50 {
+	float: left;
+	width: 50%;
+}
+
+.col55 {
+	float: left;
+	width: 55%;
+}
+
+.col60 {
+	float: left;
+	width: 60%;
+}
+
+.col65 {
+	float: left;
+	width: 65%;
+}
+
+.col70 {
+	float: left;
+	width: 70%;
+}
+
+.col75 {
+	float: left;
+	width: 75%;
+}
+
+.col80 {
+	float: left;
+	width: 80%;
+}
+
+.col85 {
+	float: left;
+	width: 85%;
+}
+
+.col90 {
+	float: left;
+	width: 90%;
+}
+
+.col95 {
+	float: left;
+	width: 95%;
+}
+
+/*
+ * -------------------------------
+ * SPACERS
+ * -------------------------------
+ */
+.space10 {
+	height: 10px;
+	clear: both;
+}
+
+.space15 {
+	height: 15px;
+	clear: both;
+}
+
+.space20 {
+	height: 20px;
+	clear: both;
+}
+
+.space30 {
+	height: 30px;
+	clear: both;
+}
+
+.space40 {
+	height: 40px;
+	clear: both;
+}
+
+/* 
+ * -------------------------------
+ * RESPONSIVE MEASURES
+ * -------------------------------
+*/
+.maxwidth {
+	max-width: 100%;
+}
+
+.showif {
+	display: none;
+}
+
+@media only screen and (max-width: 480px) {
+	#envelope {
+		background: #fff;
+	}
+	#content {
+		padding: 10px 10px 20px 10px;
+	}
+	#footer {
+		padding: 10px 10px 20px 10px;
+	}
+	h1 {
+		font-size: 200%;
+	}
+	h2 {
+		font-size: 170%;
+	}
+	h3,h4 {
+		font-size: 170%;
+	}
+	p {
+		line-height: 130%;
+	}
+	.code {
+		font-size: 100%;
+	}
+	.col5,.col10,.col15,.col20,.col25,.col30,.col35,.col40,.col45,.col50,.col55,.col60,.col65,.col70,.col75,.col80,.col85,.col90,.col95
+		{
+		width: 100%;
+	}
+	.centerif {
+		text-align: center;
+	}
+	.hideif {
+		display: none;
+	}
+	.showif {
+		display: block;
+	}
+}
